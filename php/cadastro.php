@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cadastro</title>
 <?php
 	require_once'Classes/usuarios.php';
 	$u = new usuario;
 ?>
 
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8"/>
-	<title>Login</title>
-	<link rel="stylesheet" href="css/estilo.css">
 </head>
+	
 <body>
 <div id="corpo-form">	
 	<h1>Cadastrar</h1>
@@ -21,9 +22,7 @@
 		<input type="password" name="confsenha" placeholder="Confirmar Senha">
 		<input type="submit" value="Cadastrar">
 		<li><a href="index.php">Voltar para Página Inicial</a></li>
-		
-		
-		
+
 	</form>
 </div>
 <?php
@@ -69,10 +68,6 @@ if(isset($_POST['nome']))
 
 
 }
-
-
-
-
 
 ?>
 
